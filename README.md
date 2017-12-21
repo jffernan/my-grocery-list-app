@@ -1,6 +1,6 @@
 ## my-grocery-list-app
 
-Welcome to My Grocery List App! This app was built using both React and Redux JavaScript libraries. Thank you for trying my app! 
+Welcome to My Grocery List App! This was built using both React and Redux JavaScript libraries. Thank you for trying my app! 
 
 Live demo at: https://jffernan.github.io/my-grocery-list-app.
 
