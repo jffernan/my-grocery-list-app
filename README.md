@@ -1,4 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+## my-grocery-list-app
+
+Welcome to My Grocery List App! This app was built using both React and Redux JavaScript libraries. Thank you for trying my app! 
+
+Live demo at: https://jffernan.github.io/my-grocery-list-app.
+
+The app was created with create-react-app.  See the [full create-react-app guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).  Thank you for using my app.
+
+## Installation
+
+To use this app, first clone from GitHub via 'git clone git@github.com:jffernan/my-grocery-list-app.git' at your terminal, 'cd' to the new directory, then run ‘npm install’, and last, run ‘npm start' to launch your http server.
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/jffernan/my-grocery-list-app/. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
+
+## License
+
+The code is available as open source under the terms of the MIT License.
+
+## This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
