@@ -1,19 +1,18 @@
 import React from 'react';
 import './App.css';
+import Footer from './Footer';
+import AddItem from './AddItem';
+import VisibleItemList from '../containers/VisibleItemList';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div className="App">
+    <header className="App-header">
+      <h1 className="App-title">Welcome To My Grocery List App</h1>
+    </header>
+    <AddItem />
+    <VisibleItemList />
+    <Footer />
+  </div>
+);
 
 export default App;
