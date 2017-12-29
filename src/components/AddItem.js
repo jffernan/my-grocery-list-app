@@ -1,4 +1,4 @@
-import AddItemForm from AddItemForm;
+import AddItemForm from './AddItemForm';
 import { connect } from 'react-redux';
 import { addItem } from '../actions';
 
