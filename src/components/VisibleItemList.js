@@ -8,7 +8,7 @@ const getVisibleItems = (items, filter) => {
       return items;
     case 'SHOW_PURCHASED':
       return items.filter(t => t.purchased);
-    case 'SHOW_ACTIVE':
+    case 'SHOW_BUY':
       return items.filter(t => !t.purchased);
     default:
   };

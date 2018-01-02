@@ -4,7 +4,7 @@ import Link from './Link';
 
 const mapStateToProps = (state, ownProps) => {
   return {
-    active: ownProps.filter === state.visibilityFilter
+    buy: ownProps.filter === state.visibilityFilter
   }
 };
 

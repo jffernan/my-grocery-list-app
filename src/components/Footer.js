@@ -9,8 +9,8 @@ const Footer = () => (
       All
     </FilterLink>
     {", "}
-    <FilterLink filter="SHOW_ACTIVE">
-      Active
+    <FilterLink filter="SHOW_BUY">
+      Buy
     </FilterLink>
     {", "}
     <FilterLink filter="SHOW_PURCHASED">

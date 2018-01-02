@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Link = ({ active, children, onClick }) => {
-  if (active) {
+const Link = ({ buy, children, onClick }) => {
+  if (buy) {
     return <span>{children}</span>
   }
 
@@ -20,7 +20,7 @@ const Link = ({ active, children, onClick }) => {
 
 
 Link.propTypes = {
-  active: PropTypes.bool.isRequired,
+  buy: PropTypes.bool.isRequired,
   children: PropTypes.node.isRequired,
   onClick: PropTypes.func.isRequired
 };
