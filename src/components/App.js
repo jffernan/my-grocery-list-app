@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
+import '../App.css';
 import Footer from './Footer';
 import AddItem from './AddItem';
-import VisibleItemList from '../containers/VisibleItemList';
+import VisibleItemList from './VisibleItemList';
 
 const App = () => (
   <div className="App">

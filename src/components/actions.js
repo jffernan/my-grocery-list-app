@@ -2,7 +2,7 @@ let nextItemId = 0;
 
 export const addItem = (text) => {
  return {
- type: ‘ADD_ITEM’,
+ type: 'ADD_ITEM',
  id: nextItemId++,
  text,
  purchased: false
@@ -11,14 +11,14 @@ export const addItem = (text) => {
 
 export const setVisibilityFilter = (filter) => {
  return {
- type: ‘SET_VISIBILITY_FILTER’,
+ type: 'SET_VISIBILITY_FILTER',
  filter
  }
 };
 
 export const toggleItem = (id) => {
  return {
- type: ‘TOGGLE_ITEM’,
+ type: 'TOGGLE_ITEM',
  id
  }
 };

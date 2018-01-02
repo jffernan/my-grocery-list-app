@@ -1,17 +1,18 @@
 import { connect } from 'react-redux';
-import { toggleItem } from '../actions';
+import { toggleItem } from './actions';
 import ItemList from './ItemList';
 
 const getVisibleItems = (items, filter) => {
   switch (filter) {
     case 'SHOW_ALL':
-      return items
+      return items;
     case 'SHOW_PURCHASED':
-      return items.filter(t => t.purchased)
+      return items.filter(t => t.purchased);
     case 'SHOW_ACTIVE':
-      return items.filter(t => !t.purchased)
-  }
-}
+      return items.filter(t => !t.purchased);
+    default:
+  };
+};
 
 const mapStateToProps = (state) => {
   return {
@@ -30,6 +31,6 @@ const mapDispatchToProps = (dispatch) => {
 const VisibleItemList = connect(
   mapStateToProps,
   mapDispatchToProps
-)(ItemList)
+)(ItemList);
 
-export default VisibleItemList
+export default VisibleItemList;
