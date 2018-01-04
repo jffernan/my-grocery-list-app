@@ -3,12 +3,44 @@
 }
 
 .App-header {
+  font-weight: bold;
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+  height: 80px;
+  padding: 20px 0px 40px 0px;
   color: white;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .App-title {
+  font-weight: bold;
   font-size: 1.5em;
+}
+
+.App-footer {
+  font-weight: bold;
+  position: relative;
+  background-color: #222;
+  height: 20px;
+  font-size: 8px;
+  color: white;
+  margin-top: 20px;
+  padding: 20px 0px 40px 0px;
+  text-align: center;
+}
+
+.center {
+  width: 160px;
+  margin: auto;
+  text-align:left;
+}
+
+.center li{
+  font-weight: bold;
+  list-style-position: inside;
+  list-style-type: circle;
+}
+
+input:focus {
+  background-color: yellow;
 }

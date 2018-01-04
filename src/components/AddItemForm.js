@@ -14,7 +14,8 @@ let AddItemForm = ({ onSubmit }) => {
       }}>
         <input ref={node => {
           input = node
-        }} />
+        }}
+        autocomplete="on"/>
         <button type="submit">
           Add Item
         </button>

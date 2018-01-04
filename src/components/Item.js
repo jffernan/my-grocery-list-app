@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Item = ({ onClick, purchased, text }) => (
+  <div className = "center">
   <li
     onClick={onClick}
     style={{
@@ -10,6 +11,7 @@ const Item = ({ onClick, purchased, text }) => (
   >
     {text}
   </li>
+  </div>
 )
 
 Item.propTypes = {

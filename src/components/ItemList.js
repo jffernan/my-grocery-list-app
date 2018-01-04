@@ -3,15 +3,17 @@ import PropTypes from 'prop-types';
 import Item from './Item'
 
 const ItemList = ({ items, onItemClick }) => (
-  <ul>
-    {items.map(item =>
-      <Item
-        key={item.id}
-        {...item}
-        onClick={() => onItemClick(item.id)}
-      />
-    )}
-  </ul>
+  <div className="center">
+    <ul>
+      {items.map(item =>
+        <Item
+          key={item.id}
+          {...item}
+          onClick={() => onItemClick(item.id)}
+        />
+      )}
+    </ul>
+  </div>
 )
 
 ItemList.propTypes = {

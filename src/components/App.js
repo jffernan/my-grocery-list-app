@@ -13,6 +13,15 @@ const App = () => (
     <AddItem />
     <Footer />
     <VisibleItemList />
+    <footer className="App-footer">
+      <h1 className="App-code">
+        <a target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/jffernan/my-grocery-list-app">
+          Visit GitHub To View My Code
+        </a>
+      </h1>
+    </footer>
   </div>
 );
 
