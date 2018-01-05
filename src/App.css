@@ -37,9 +37,16 @@
 }
 
 .center li{
+  font-size: 24px;
   font-weight: bold;
   list-style-position: inside;
-  list-style-type: circle;
+  list-style-type: disc;
+  cursor: pointer;
+}
+
+.filterLink{
+  font-size: 24px;
+  cursor: pointer;
 }
 
 input:focus {
@@ -48,6 +55,6 @@ input:focus {
 
 form {
   text-align: center;
-  line-height: 50px;
+  line-height: 20px;
   width: 100%;
 }

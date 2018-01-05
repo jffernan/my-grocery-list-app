@@ -2,7 +2,7 @@ import React from 'react';
 import FilterLink from './FilterLink';
 
 const Footer = () => (
-  <p>
+  <p className="filterLink">
     Show:
     {" "}
     <FilterLink filter="SHOW_ALL">
