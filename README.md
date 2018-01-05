@@ -1,10 +1,8 @@
 ## my-grocery-list-app
 
-Welcome to My Grocery List App, where you can create your shopping list by adding new items & click-on items when purchased to cross-out in the list. This was built using both React and Redux JavaScript libraries. Thank you for trying my app! 
+Welcome to My Grocery List App, where you can create your shopping list by adding new items & click-on items when purchased to strike-out in the list. This was built using both React and Redux JavaScript libraries.  Live demo at: https://jffernan.github.io/my-grocery-list-app.  Thank you for trying my app! 
 
-Live demo at: https://jffernan.github.io/my-grocery-list-app.
-
-The app was created with create-react-app.  See the [full create-react-app guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).  Thank you for using my app.
+The app was created with create-react-app.  See the [full create-react-app guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 ## Installation
 
