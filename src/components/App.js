@@ -8,9 +8,8 @@ const App = () => (
   <div className="App">
     <header className="App-header">
       <h1 className="App-title">Welcome To My Grocery List App</h1>
-      <p>*Create shopping list by adding new items.</p>
-      <p>*Click on items after purchased to strike-out.</p>
-      <p>*Click on striked-out items to delete from list.</p>
+      <h4>*Create shopping list by adding new items.</h4>
+      <h4>*Click on items after purchased to strike-out.</h4>
     </header>
     <AddItem />
     <Footer />
