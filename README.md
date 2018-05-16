@@ -4,6 +4,8 @@ Welcome to My Grocery List App, where you can create your shopping list by addin
 
 The app was created with create-react-app.  See the [full create-react-app guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
+Contact: James Fernandez | Email: jffernan@comcast.net | Phone: (206) 658-5295
+
 ## Installation
 
 To use this app, first clone from GitHub via 'git clone git@github.com:jffernan/my-grocery-list-app.git' at your terminal, 'cd' to the new directory, then run ‘npm install’, and last, run ‘npm start' to launch your http server.
